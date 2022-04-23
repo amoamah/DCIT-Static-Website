@@ -1,0 +1,589 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.main{
+    width: 100%;
+    background-image: url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.seth{
+    width: 100%;
+    background-image: url(2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.opoku{
+    position: fixed;
+    width: 100%;
+    background-color: thistle;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.design{
+    width: 100%;
+    background-image: url(design.jpg);
+    background-position: fixed;
+    background-size: cover;
+    height: 109vh;
+}
+
+.contact{
+    width: 100%;
+    background-image: url(design.jpg);
+    background-position: fixed;
+    background-size: cover;
+    height: 109vh;
+}
+
+.facebook{
+    width: 100%;
+    background-color: thistle;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.inside{
+    width: 100%;
+    background-color: papayawhip;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #008000;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.laga{
+    color: green;
+    font-size: 30px;
+    font-family: Arial;
+    margin-left: -45px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.lega{
+    color: green;
+    font-size: 30px;
+    font-family: Arial;
+    margin-left: -45px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.Deca{
+    color: green;
+    font-size: 30px;
+    font-family: Arial;
+    margin-left: -45px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.cont{
+    color: green;
+    font-size: 30px;
+    font-family: Arial;
+    margin-left: -45px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.manu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.main-about{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.main-about ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: blue;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.dec{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+.dec ul li a{
+    text-decoration: none;
+    color: teal;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.con{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+.con ul li a{
+    text-decoration: none;
+    color: teal;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #008000;
+}
+
+.search{
+    width: 330px;
+    float: right;
+    margin-right: 70px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: black;
+    border: 1px solid #008000;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #008000;
+    border: 2px solid #008000;
+    margin-top: 13px;
+    color: #000000;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #000000;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #008000;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #000000;
+}
+
+.content span{
+    color: #008000;
+    font-size: 60px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.8) 50%), url(1.jpg);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #008000;
+    font-size: 22px;
+    background-color: #000000;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #008000;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #008000;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+    background: #fff;
+    color: green;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.forms .link{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link{
+    text-decoration: none;
+    color: #fff
+}
+
+.liw, .link{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 12px;
+    padding-top: 5px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    border: none;
+    max-width: 700px;
+    text-decoration: none;
+}
+
+.icon a:hover{
+    background-color: #000000;
+    margin-bottom: 10px;
+}
+
+.about{
+    width: 1200px;
+    margin-top: 20px;
+    color: #fff;
+   
+}
+
+.about .pa{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    margin-top: 2%;
+    color: #000;
+    font-weight: bold;
+}
+
+.about h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+.about span{
+    color: green;
+    font-size: 60px;
+}
+
+.intro{
+    width: 1200px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.intro .int{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-left: 620px;
+    margin-top: -300px;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+.service{
+    width: 1200px;
+    margin-bottom: 20px;
+    margin-right: 620px;
+    color: #000;
+
+}
+
+.service h2{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 2%;
+    letter-spacing: 2px;
+}
+
+.service .per{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.services{
+    width: 1200px;
+    margin-bottom: 20px;
+    margin-left: 620px;
+    color: #000;
+}
+
+.services h2{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 2%;
+    letter-spacing: 2px;
+}
+
+.services .inter{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.together{
+    width: 1200px;
+    margin-bottom: 20px;
+    margin-right: 620px;
+    color: #000;
+}
+
+.together h2{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+.together .gether{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin-right: 120px;
+}
+
+.list{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.8) 50%), url(1.jpg);
+    position: absolute;
+    top: 30px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.list h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #008000;
+    font-size: 22px;
+    background-color: #000000;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.list input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #008000;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.chvmp{
+    width: 1200px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.chvmp h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+.chvmp h2{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
